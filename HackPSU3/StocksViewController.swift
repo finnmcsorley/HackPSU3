@@ -67,7 +67,7 @@ class StocksViewController: UIViewController, UITextFieldDelegate {
                     print("Response data string:\n \(dataString)")
 
                 DispatchQueue.main.async{
-                    self.stockPriceLabel.text = ticker + ": %" + dataString + " Change"
+                    self.stockPriceLabel.text = ticker + ": " + dataString + "% Change"
                 }
 
                 }
