@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0536127BDF62DF4DFEF335AB /* Pods_HackPSU3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ED58E157AD536254161EBB /* Pods_HackPSU3.framework */; };
 		7BE77C7C69DA020DA4CB0333 /* Pods_HackPSU3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501C342824BC3F5E96AEC540 /* Pods_HackPSU3Tests.framework */; };
+		BFC3A0892557CFDE00DF314C /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3A0882557CFDE00DF314C /* StocksViewController.swift */; };
 		CB44E4DA0E05A476EAD7E2C8 /* Pods_HackPSU3_HackPSU3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C459A1D993D881D6DCA600A /* Pods_HackPSU3_HackPSU3UITests.framework */; };
 		EA5398F3255747C600FFB6E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5398F2255747C600FFB6E9 /* AppDelegate.swift */; };
 		EA5398F5255747C600FFB6E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5398F4255747C600FFB6E9 /* SceneDelegate.swift */; };
@@ -47,6 +48,7 @@
 		845658FC828D20C5F7315C1B /* Pods-HackPSU3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3Tests.debug.xcconfig"; path = "Target Support Files/Pods-HackPSU3Tests/Pods-HackPSU3Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9C93E04AE654CB6DC65BD32 /* Pods-HackPSU3-HackPSU3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3-HackPSU3UITests.release.xcconfig"; path = "Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests.release.xcconfig"; sourceTree = "<group>"; };
 		B296B4B01D7FAA3CE53FDDDD /* Pods-HackPSU3-HackPSU3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3-HackPSU3UITests.debug.xcconfig"; path = "Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFC3A0882557CFDE00DF314C /* StocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
 		D4ED58E157AD536254161EBB /* Pods_HackPSU3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackPSU3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5398EF255747C600FFB6E9 /* HackPSU3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackPSU3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5398F2255747C600FFB6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				EA53993F2557493F00FFB6E9 /* HackPSU3.entitlements */,
 				EA5398F2255747C600FFB6E9 /* AppDelegate.swift */,
 				EA5398F4255747C600FFB6E9 /* SceneDelegate.swift */,
+				BFC3A0882557CFDE00DF314C /* StocksViewController.swift */,
 				EA5398F6255747C600FFB6E9 /* ViewController.swift */,
 				EA5398F8255747C600FFB6E9 /* Main.storyboard */,
 				EA5398FB255747C900FFB6E9 /* Assets.xcassets */,
@@ -451,6 +454,7 @@
 				EA5398F7255747C600FFB6E9 /* ViewController.swift in Sources */,
 				EA5398F3255747C600FFB6E9 /* AppDelegate.swift in Sources */,
 				EA5398F5255747C600FFB6E9 /* SceneDelegate.swift in Sources */,
+				BFC3A0892557CFDE00DF314C /* StocksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,13 +633,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = HackPSU3/HackPSU3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X385PYWMD5;
+				DEVELOPMENT_TEAM = TDY68T62HW;
 				INFOPLIST_FILE = HackPSU3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.finnmcsorley.HackPSU3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finnmcsorleys.HackPSU3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -650,13 +655,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = HackPSU3/HackPSU3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X385PYWMD5;
+				DEVELOPMENT_TEAM = TDY68T62HW;
 				INFOPLIST_FILE = HackPSU3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.finnmcsorley.HackPSU3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.finnmcsorleys.HackPSU3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

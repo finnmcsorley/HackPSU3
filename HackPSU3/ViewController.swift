@@ -29,6 +29,7 @@ class ViewController: UIViewController, FUIAuthDelegate {
     func authUI( authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?){
         if let user = authDataResult?.user{
             print("User: \(user.uid)")
+            performSegue(withIdentifier: "toStocks", sender: Any.self)
         }
     }
 }
