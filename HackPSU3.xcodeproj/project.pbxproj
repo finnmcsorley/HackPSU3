@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0536127BDF62DF4DFEF335AB /* Pods_HackPSU3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ED58E157AD536254161EBB /* Pods_HackPSU3.framework */; };
+		7BE77C7C69DA020DA4CB0333 /* Pods_HackPSU3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501C342824BC3F5E96AEC540 /* Pods_HackPSU3Tests.framework */; };
+		CB44E4DA0E05A476EAD7E2C8 /* Pods_HackPSU3_HackPSU3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C459A1D993D881D6DCA600A /* Pods_HackPSU3_HackPSU3UITests.framework */; };
 		EA5398F3255747C600FFB6E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5398F2255747C600FFB6E9 /* AppDelegate.swift */; };
 		EA5398F5255747C600FFB6E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5398F4255747C600FFB6E9 /* SceneDelegate.swift */; };
 		EA5398F7255747C600FFB6E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5398F6255747C600FFB6E9 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		EA5398FF255747C900FFB6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5398FD255747C900FFB6E9 /* LaunchScreen.storyboard */; };
 		EA53990A255747CA00FFB6E9 /* HackPSU3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA539909255747CA00FFB6E9 /* HackPSU3Tests.swift */; };
 		EA539915255747CA00FFB6E9 /* HackPSU3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA539914255747CA00FFB6E9 /* HackPSU3UITests.swift */; };
+		EA5399262557480A00FFB6E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5399252557480A00FFB6E9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D63585D0555F835ECC80B5C /* Pods-HackPSU3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3.debug.xcconfig"; path = "Target Support Files/Pods-HackPSU3/Pods-HackPSU3.debug.xcconfig"; sourceTree = "<group>"; };
+		167138CC10467F8837190C66 /* Pods-HackPSU3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3.release.xcconfig"; path = "Target Support Files/Pods-HackPSU3/Pods-HackPSU3.release.xcconfig"; sourceTree = "<group>"; };
+		3C459A1D993D881D6DCA600A /* Pods_HackPSU3_HackPSU3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackPSU3_HackPSU3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2F3F62A8526662D6F0DCBB /* Pods-HackPSU3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3Tests.release.xcconfig"; path = "Target Support Files/Pods-HackPSU3Tests/Pods-HackPSU3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		501C342824BC3F5E96AEC540 /* Pods_HackPSU3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackPSU3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845658FC828D20C5F7315C1B /* Pods-HackPSU3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3Tests.debug.xcconfig"; path = "Target Support Files/Pods-HackPSU3Tests/Pods-HackPSU3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C93E04AE654CB6DC65BD32 /* Pods-HackPSU3-HackPSU3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3-HackPSU3UITests.release.xcconfig"; path = "Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		B296B4B01D7FAA3CE53FDDDD /* Pods-HackPSU3-HackPSU3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackPSU3-HackPSU3UITests.debug.xcconfig"; path = "Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4ED58E157AD536254161EBB /* Pods_HackPSU3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackPSU3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5398EF255747C600FFB6E9 /* HackPSU3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackPSU3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5398F2255747C600FFB6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA5398F4255747C600FFB6E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,8 @@
 		EA539910255747CA00FFB6E9 /* HackPSU3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackPSU3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA539914255747CA00FFB6E9 /* HackPSU3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackPSU3UITests.swift; sourceTree = "<group>"; };
 		EA539916255747CA00FFB6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5399252557480A00FFB6E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA53993F2557493F00FFB6E9 /* HackPSU3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HackPSU3.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0536127BDF62DF4DFEF335AB /* Pods_HackPSU3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE77C7C69DA020DA4CB0333 /* Pods_HackPSU3Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +87,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB44E4DA0E05A476EAD7E2C8 /* Pods_HackPSU3_HackPSU3UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51F0A49EB865AC48D9118978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4ED58E157AD536254161EBB /* Pods_HackPSU3.framework */,
+				3C459A1D993D881D6DCA600A /* Pods_HackPSU3_HackPSU3UITests.framework */,
+				501C342824BC3F5E96AEC540 /* Pods_HackPSU3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B75146164E49C096379664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D63585D0555F835ECC80B5C /* Pods-HackPSU3.debug.xcconfig */,
+				167138CC10467F8837190C66 /* Pods-HackPSU3.release.xcconfig */,
+				B296B4B01D7FAA3CE53FDDDD /* Pods-HackPSU3-HackPSU3UITests.debug.xcconfig */,
+				A9C93E04AE654CB6DC65BD32 /* Pods-HackPSU3-HackPSU3UITests.release.xcconfig */,
+				845658FC828D20C5F7315C1B /* Pods-HackPSU3Tests.debug.xcconfig */,
+				4F2F3F62A8526662D6F0DCBB /* Pods-HackPSU3Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EA5398E6255747C600FFB6E9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				EA539908255747CA00FFB6E9 /* HackPSU3Tests */,
 				EA539913255747CA00FFB6E9 /* HackPSU3UITests */,
 				EA5398F0255747C600FFB6E9 /* Products */,
+				C7B75146164E49C096379664 /* Pods */,
+				51F0A49EB865AC48D9118978 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,7 @@
 		EA5398F1255747C600FFB6E9 /* HackPSU3 */ = {
 			isa = PBXGroup;
 			children = (
+				EA53993F2557493F00FFB6E9 /* HackPSU3.entitlements */,
 				EA5398F2255747C600FFB6E9 /* AppDelegate.swift */,
 				EA5398F4255747C600FFB6E9 /* SceneDelegate.swift */,
 				EA5398F6255747C600FFB6E9 /* ViewController.swift */,
@@ -106,6 +150,7 @@
 				EA5398FB255747C900FFB6E9 /* Assets.xcassets */,
 				EA5398FD255747C900FFB6E9 /* LaunchScreen.storyboard */,
 				EA539900255747C900FFB6E9 /* Info.plist */,
+				EA5399252557480A00FFB6E9 /* GoogleService-Info.plist */,
 			);
 			path = HackPSU3;
 			sourceTree = "<group>";
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA539919255747CA00FFB6E9 /* Build configuration list for PBXNativeTarget "HackPSU3" */;
 			buildPhases = (
+				882D5B80A2894BD7E1676983 /* [CP] Check Pods Manifest.lock */,
 				EA5398EB255747C600FFB6E9 /* Sources */,
 				EA5398EC255747C600FFB6E9 /* Frameworks */,
 				EA5398ED255747C600FFB6E9 /* Resources */,
+				81061FDDD96B0BE9DAA0E531 /* [CP] Embed Pods Frameworks */,
+				59190A025FB27D5D23128629 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA53991C255747CA00FFB6E9 /* Build configuration list for PBXNativeTarget "HackPSU3Tests" */;
 			buildPhases = (
+				86EA45C269AF6876FE3DBC4C /* [CP] Check Pods Manifest.lock */,
 				EA539901255747C900FFB6E9 /* Sources */,
 				EA539902255747C900FFB6E9 /* Frameworks */,
 				EA539903255747C900FFB6E9 /* Resources */,
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA53991F255747CA00FFB6E9 /* Build configuration list for PBXNativeTarget "HackPSU3UITests" */;
 			buildPhases = (
+				2219F295E68C2867C342AAD7 /* [CP] Check Pods Manifest.lock */,
 				EA53990C255747CA00FFB6E9 /* Sources */,
 				EA53990D255747CA00FFB6E9 /* Frameworks */,
 				EA53990E255747CA00FFB6E9 /* Resources */,
+				F341B85CE7319DE74CE20851 /* [CP] Embed Pods Frameworks */,
+				320484225735F512C5BCA8F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			files = (
 				EA5398FF255747C900FFB6E9 /* LaunchScreen.storyboard in Resources */,
 				EA5398FC255747C900FFB6E9 /* Assets.xcassets in Resources */,
+				EA5399262557480A00FFB6E9 /* GoogleService-Info.plist in Resources */,
 				EA5398FA255747C600FFB6E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +305,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2219F295E68C2867C342AAD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackPSU3-HackPSU3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		320484225735F512C5BCA8F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59190A025FB27D5D23128629 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackPSU3/Pods-HackPSU3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackPSU3/Pods-HackPSU3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackPSU3/Pods-HackPSU3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81061FDDD96B0BE9DAA0E531 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackPSU3/Pods-HackPSU3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackPSU3/Pods-HackPSU3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackPSU3/Pods-HackPSU3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EA45C269AF6876FE3DBC4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackPSU3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		882D5B80A2894BD7E1676983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackPSU3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F341B85CE7319DE74CE20851 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackPSU3-HackPSU3UITests/Pods-HackPSU3-HackPSU3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA5398EB255747C600FFB6E9 /* Sources */ = {
@@ -433,9 +623,11 @@
 		};
 		EA53991A255747CA00FFB6E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D63585D0555F835ECC80B5C /* Pods-HackPSU3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HackPSU3/HackPSU3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X385PYWMD5;
 				INFOPLIST_FILE = HackPSU3/Info.plist;
@@ -452,9 +644,11 @@
 		};
 		EA53991B255747CA00FFB6E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167138CC10467F8837190C66 /* Pods-HackPSU3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HackPSU3/HackPSU3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X385PYWMD5;
 				INFOPLIST_FILE = HackPSU3/Info.plist;
@@ -471,6 +665,7 @@
 		};
 		EA53991D255747CA00FFB6E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845658FC828D20C5F7315C1B /* Pods-HackPSU3Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +688,7 @@
 		};
 		EA53991E255747CA00FFB6E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2F3F62A8526662D6F0DCBB /* Pods-HackPSU3Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +711,7 @@
 		};
 		EA539920255747CA00FFB6E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B296B4B01D7FAA3CE53FDDDD /* Pods-HackPSU3-HackPSU3UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +732,7 @@
 		};
 		EA539921255747CA00FFB6E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C93E04AE654CB6DC65BD32 /* Pods-HackPSU3-HackPSU3UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
